@@ -5,5 +5,101 @@ img {
 li {
 	display: inline-block;
 	margin-left: 10px;
-	align-content: center;
+	vertical-align: middle;
+}
+.top {
+	height: 30px
+	width: 1286px;
+	float: right;
+	margin-right: 10px;
+	display: block;
+}
+#search-box {
+	height: 26px;
+	width: 525px;
+	display: inline-block;
+	border: 0;
+	margin-left: 0;
+	padding-left: 0;
+}
+.search-bottun {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+    width: 135px;
+    height:  34px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#logo {
+	height: 200px;
+	width: 550px;
+}
+#voice-search {
+	height: 23px;
+	width: 17px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto;
+}
+/*div {
+	border: 1px solid black;
+}*/
+#search-div {
+	height: 29px;
+	width: 610px;
+	display: block;
+	margin: auto;
+	position: relative;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid black;
+}
+#ss {
+	vertical-align: middle;
+	padding-left: 0;
+	margin: auto;
+}
+.top-middle {
+	margin: auto;
+	display: block;
+	clear: both;
+}
+.top-bottom {
+	display: block;
+	clear: both;
+}
+.bottom {
+	display: block;
+	clear: both;
+}
+#ldiv {
+	width: 650px;
+	height: 300px;
+	margin: auto;
+}
+#bleft {
+	float: left;
+}
+#bright {
+	float: right;
+}
+#butdiv {
+	height: 45px;
+	width: 610px;
+	display: block;
+	margin: auto;
+	position: relative;
+}
+#dd {
+	vertical-align: middle;
+	margin: auto;
+	padding-left: 120px;
 }
