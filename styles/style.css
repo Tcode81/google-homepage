@@ -16,7 +16,7 @@ body {
 }
 body, a {
 	font-family: arial, sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	color: #666;
 	text-decoration: none;
 }
@@ -61,11 +61,13 @@ img {
 #search-box {
 	border: 0;
 	width: 500px;
-	height: 23px;
+	height: 30px;
+	font-size: 18px;
 }
 #search-box-div {
 	display: block;
-	width: 521px;
+	width: 528px;
+	height: 35px;
 	margin: auto;
 	border: 1px solid grey;
 	padding: 0;
@@ -80,8 +82,8 @@ img {
     min-width: 54px;
     padding: 0 16px;
     text-align: center;
-    height: 36px;
-    line-height: 27px;
+    height: 40px;
+    line-height: 30px;
 }
 #button-div {
 	display: block;
@@ -95,6 +97,7 @@ img {
 }
 #bottom-left ul, #bottom-right ul{
 	padding-left: 0;
+	margin-right: 10px;
 }
 #bottom-left {
 	float: left;
