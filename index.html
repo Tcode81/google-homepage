@@ -2,12 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="styles/cssreset.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<title>Google</title>
 </head>
 <body>
-	<div class="top">
-		<div class="option-bar">
+	<div id="top">
+		<div id="option-bar">
 			<ul>
 				<li><a href="#">Gmail</a></li>
 				<li><a href="#">Images</a></li>
@@ -17,22 +18,22 @@
 			</ul>
 		</div>
 	</div>
-	<div class="top-middle">
-		<div id="ldiv">
+	<div id="top-middle">
+		<div id="logo-div">
 			<img id="logo" src="images/google-word-logo.gif">
 		</div>
 	</div>
-	<div class="bottom-middle">
+	<div id="bottom-middle">
 		<div>	
 			<form action="#" method="GET" >
 				<div id="search-div">
-					<ul id="ss">
-						<li><input type="text" name="search" id="search-box"></li>
+					<ul id="search-box-div">
+						<li><input id="search-box" type="text" name="search" ></li>
 						<li><img id="voice-search" src="images/google-voice-search-icon.png"></li>
 					</ul>
 				</div>
-				<div id="butdiv">
-					<ul id="dd">
+				<div id="button-div">
+					<ul id="buttons">
 						<li><input class="search-bottun" type="submit" name="" value="Google Search"></li>
 						<li><input class="search-bottun" type="submit" name="" value="I'm Feeling Lucky"></li>					
 					</ul>	
@@ -40,16 +41,16 @@
 			</form>	
 		</div>
 	</div>
-	<div class="bottom">
-		<div id="bleft">
+	<div id="bottom">
+		<div id="bottom-left">
 			<ul>
 				<li><a href="#">Advertising</a></li>
 				<li><a href="#">Business</a></li>
 				<li><a href="#">About</a></li>
 			</ul>
 		</div>
-		<div>
-			<ul id="bright">
+		<div id="bottom-right">
+			<ul>
 				<li><a href="#">Privacy</a></li>
 				<li><a href="#">Terms</a></li>
 				<li><a href="#">Settings</a></li>

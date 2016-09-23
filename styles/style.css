@@ -1,105 +1,101 @@
+#top {
+	height: 10%;
+}
+#top-middle {
+	height: 40%;
+}
+#bottom-middle {
+	height: 40%;
+}
+#bottom {
+	background-color: #f2f2f2;
+	height: 10%;
+}
+body, a {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #666;
+	text-decoration: none;
+}
 img {
 	width: 30px;
 	height: 30px;
-}
-li {
-	display: inline-block;
-	margin-left: 10px;
 	vertical-align: middle;
 }
-.top {
-	height: 30px
-	width: 1286px;
+#option-bar li, #bottom li{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 10px;
+}
+#option-bar {
 	float: right;
-	margin-right: 10px;
+}
+
+#top:after {
+	content: "";
+	display:block;
+	clear: both;
+}
+#top-middle
+#logo {
+	width: 900px; 
+	height: 300px;
 	display: block;
+	margin: auto;
+}
+#search-div li, #button-div li {
+	display: inline-block;
+}
+#voice-search {
+	width: 17px;
+	height: 23px;
 }
 #search-box {
-	height: 26px;
-	width: 525px;
-	display: inline-block;
 	border: 0;
-	margin-left: 0;
-	padding-left: 0;
+	width: 500px;
+	height: 23px;
+}
+#search-box-div {
+	display: block;
+	width: 521px;
+	margin: auto;
+	border: 1px solid grey;
+	padding: 0;
 }
 .search-bottun {
 	background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 2px;
     color: #757575;
-    font-family: arial,sans-serif;
-    font-size: 13px;
     font-weight: bold;
     margin: 11px 4px;
+    min-width: 54px;
     padding: 0 16px;
     text-align: center;
-    width: 135px;
-    height:  34px;
-    vertical-align: middle;
-    display: inline-block;
+    height: 36px;
+    line-height: 27px;
 }
-#logo {
-	height: 200px;
-	width: 550px;
-}
-#voice-search {
-	height: 23px;
-	width: 17px;
-	display: inline-block;
-	vertical-align: middle;
+#button-div {
+	display: block;
+	width: 521px;
 	margin: auto;
 }
-/*div {
-	border: 1px solid black;
-}*/
-#search-div {
-	height: 29px;
-	width: 610px;
+#buttons {
 	display: block;
 	margin: auto;
-	position: relative;
+	width: 300px;
+}
+#bottom-left ul, #bottom-right ul{
 	padding-left: 0;
-	padding-right: 0;
-	border: 1px solid black;
 }
-#ss {
-	vertical-align: middle;
-	padding-left: 0;
-	margin: auto;
-}
-.top-middle {
-	margin: auto;
-	display: block;
-	clear: both;
-}
-.top-bottom {
-	display: block;
-	clear: both;
-}
-.bottom {
-	display: block;
-	clear: both;
-}
-#ldiv {
-	width: 650px;
-	height: 300px;
-	margin: auto;
-}
-#bleft {
+#bottom-left {
 	float: left;
 }
-#bright {
+#bottom-right {
 	float: right;
 }
-#butdiv {
-	height: 45px;
-	width: 610px;
-	display: block;
-	margin: auto;
-	position: relative;
-}
-#dd {
-	vertical-align: middle;
-	margin: auto;
-	padding-left: 120px;
+#bottom:after {
+	content: "";
+	display:block;
+	clear: both;
 }
