@@ -1,0 +1,109 @@
+#top li, #top div, #middle-top li, #middle-top div {
+	display: inline-block;
+	vertical-align: middle;
+}
+img {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+#top {
+	height: 50px;
+	background-color: #f1f1f1;
+}
+#top div {
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+#google-logo {
+	height: 35px;
+	width: 100px;
+	float: left;
+	vertical-align: middle;
+	margin-top: 7.5px;
+}
+#google-logo img {
+	width: 100%;
+	height: 100%;
+}
+#search-div {
+	height: 35px;
+	width: 700px;
+	margin-top: 7.5px;
+	padding: 0;
+	border: 1px solid #b5b5b5;
+	background-color: white;
+	float: left;
+	vertical-align: middle;
+}
+#search-div ul,#search-div form, #search-div li, #voice-search, #search-text, #search-button {
+height: 100%;
+border: 0;
+margin: 0;
+outline: 0;
+padding: 0;
+border: 0;
+display: inline-block;
+}
+#search-div form {
+	width: 100%;
+}
+#search-div ul {
+	width: 100%;
+
+}
+#search-div li:first-child {
+	width: 92%;
+
+}
+#search-div li:nth-child(2) {
+	width: 1.8%;
+	height: 60%;
+
+}
+#search-div li:nth-child(3) {
+	width: 5%;
+}
+#search-text {
+	width: 100%;
+	font-size: 20px;
+}
+#voice-search {
+	width: 100%;
+	
+}
+#search-button {
+	width: 100%;
+	background-color: blue;
+	background-image: url("../images/search-glass.png");
+	background-size: 55% 55%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#option-div {
+	float: right;
+	vertical-align: middle;
+}
+#top:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#option-div li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#middle-top a{
+	text-decoration: none;
+	color: #777;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-right: 10px; 
+}
+#mode-div ul {
+	margin-left: 70px;
+}
+.middle-top-btn{
+	background-color: #f5f5f5;
+}
